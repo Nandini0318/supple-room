@@ -49,7 +49,7 @@ nav {
 .sub-menu {
     position: absolute;
     background-color: beige;
-    width: 180px;
+    width: 170px;
     opacity: 0;
     visibility: hidden;
 
