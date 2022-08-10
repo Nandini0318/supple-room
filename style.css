@@ -151,6 +151,54 @@ nav{
 
 }
 
+.grid-pattern{
+    margin-left: 11%; 
+    width: 100%; 
+}
+.grid-2{
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: repeat(5,230px);
+}
+.box a {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+
+.box a::after{
+    content: "";
+    background-color: black;
+    height: 0.5px;
+    width: 0;
+    display: block;
+    transition: .1 step-end
+}
+.box a:hover::after{
+    content: "";
+    background-color: black;
+    height: 0.5px;
+    width: 100%;
+    display: block;
+}
+.layer{
+    
+    width: 100%;
+    
+    
+
+    
+    
+}
+.layer:hover{
+    
+}
+
+
+
 
 
 
