@@ -161,35 +161,20 @@ nav{
     grid-template-columns: repeat(5,230px);
 
 }
-.box a {
-    position: relative;
+
+a{
     text-decoration: none;
-    color: black;
+    color:black;
+}
 
+a:hover{
+    text-decoration: underline;
+ 
 }
 
 
 
 
-.box a::after{
-    content: "";
-    background-color: black;
-    height: 0.5px;
-    width: 0;
-    display: block;
-    transition: .1 step-end;
-    position: absolute;
-
-}
-.box a:hover::after{
-    content: "";
-    background-color: black;
-    height: 0.5px;
-    width: 100%;
-    display: block;
-    
-    
-}
 .box{
     position: relative;
     display: inline-block;
