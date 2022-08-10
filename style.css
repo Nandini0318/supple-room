@@ -159,6 +159,7 @@ nav{
     display: grid;
     grid-gap:10px;
     grid-template-columns: repeat(5,230px);
+
 }
 .box a {
     position: relative;
@@ -166,6 +167,7 @@ nav{
     color: black;
     
 }
+
 
 
 
@@ -184,18 +186,27 @@ nav{
     width: 100%;
     display: block;
 }
-.layer{
+.box{
+    position: relative;
+    display: inline-block;
     
-    width: 100%;
+}
+.layer{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:99;
+}
+.box:hover.layer{
+    display: inline;
+}
     
     
 
     
     
-}
-.layer:hover{
-    
-}
+
 
 
 
