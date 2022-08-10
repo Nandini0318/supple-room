@@ -165,7 +165,7 @@ nav{
     position: relative;
     text-decoration: none;
     color: black;
-    
+
 }
 
 
@@ -177,7 +177,9 @@ nav{
     height: 0.5px;
     width: 0;
     display: block;
-    transition: .1 step-end
+    transition: .1 step-end;
+    position: absolute;
+
 }
 .box a:hover::after{
     content: "";
@@ -185,6 +187,8 @@ nav{
     height: 0.5px;
     width: 100%;
     display: block;
+    
+    
 }
 .box{
     position: relative;
@@ -196,10 +200,10 @@ nav{
     position: absolute;
     top: 0;
     left: 0;
-    z-index:99;
+    
 }
-.box:hover.layer{
-    display: inline;
+.box:hover .layer{
+    display: inline-block;
 }
     
     
