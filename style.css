@@ -224,11 +224,15 @@ a:hover{
     color: #585858;
 }
 .blue-center{
-    background: #add8e6;
-    width: 50%;
-    margin-top: 50px;
-    
-    
+    background-color: #add8e6;
+    height: 100vh;
+    margin-top: 50px;  
+}
+.blue-center h2 {
+    color: #fff;
+    margin-left: 10%;
+    margin-top: 30%;
+
 }
 
 
