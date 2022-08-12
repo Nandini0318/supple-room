@@ -256,7 +256,7 @@ a:hover{
 
 }
 .blue-box:hover img{
-    transform: scale(0.8);
+    transform: scale(0.98);
 }
 
 .btn-blue{
@@ -321,12 +321,45 @@ a:hover{
 }
 .middle{
     margin-top: 35px;
-    display: inline-block;
-    margin-left: 10%;
-    
-    
+    display: flex;
+    flex-direction: column;
+    margin-left: 17%; 
 }
     
+.link{
+    margin-top: 10px;
+}
+.right{
+    margin-top: 35px;
+    margin-left: 25%;
+}
+.right p{
+    color: #585858;
+    line-height: 2.0;
+    font-size: 15px;
+
+}
+.footer-three{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    margin-left: 10%;
+    margin-top: 35px;
+}
+.form input{
+    width: 26%;
+    height: 5vh;
+}
+.icons-two{
+    margin-left: 70%;
+}
+.icons-two a{
+    font-size: 24px;
+    border: 10px solid #fff;
+    color:black;
+
+}
     
     
 
