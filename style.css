@@ -250,6 +250,14 @@ a:hover{
     color: #fff;
     font-size: 20px;
 }
+.blue-box img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+
+}
+.blue-box:hover img{
+    transform: scale(0.8);
+}
 
 .btn-blue{
     margin-left: 45%;
@@ -317,14 +325,10 @@ a:hover{
     margin-left: 10%;
     
     
-    
 }
-.middle a {
-    display: block;
     
     
     
-}
 
 
 
