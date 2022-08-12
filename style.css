@@ -316,18 +316,15 @@ a:hover{
 }
 .middle{
     margin-top: 35px;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin-left: 10%;
-    
-    
-    
 }
-.middle a {
-    display: block;
-    
-    
-    
+.link{
+    margin-top: 20px;
+    margin-bottom: -1px;
 }
+
 
 
 
