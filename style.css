@@ -301,7 +301,8 @@ a:hover{
 .footer-two{
     
     display: flex;
-    height: 50%;
+    height: 50%
+
     
     
 
@@ -314,12 +315,21 @@ a:hover{
     
 }
 .middle{
-    position: absolute;
     margin-top: 35px;
-    display: grid;
-    margin-left: 20%;
-    grid-gap: 20px
+    display: inline-block;
+    margin-left: 10%;
+    
+    
+    
 }
+.middle a {
+    display: block;
+    
+    
+    
+}
+
+
 
 
 
