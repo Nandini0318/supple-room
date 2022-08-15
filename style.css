@@ -59,42 +59,9 @@ nav  {
 
 
 
-.sub-menu {
-    position: absolute;
-    background-color: beige;
-    width: 170px;
-    opacity: 0;
-    visibility: hidden;
-
-
-}
-
-
-.sub-menu:hover  {
-    opacity: 1;
-    visibility: visible;
-}
-
-
-.sub-menu li a  {
-    display: block;
-    margin: 10px;
-    justify-content: space-between;
-    list-style-type: none;
 
 
 
-}
-
-
-.nav-link a::after {
-    content: "";
-    background-color: black;
-    height: 0.5px;
-    width: 0;
-    display: block;
-    transition: .1 step-end
-}
 
 
 
@@ -119,44 +86,42 @@ nav  {
 
 
 
-
-
 .drop-down{
-
     position: relative;
     display: inline-block;
+
 }
 
-.sub-menu {
+.sub-menu{
     display: none;
     position: absolute;
     background-color: #fff;
-    width: 200px;
-    margin-top: 18px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-
+    width:170px ;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 99;
 }
+.sub-menu a{
+    color: black;
+    margin-top:15px;
 
-.sub-menu a {
-    color: #585858;
-    margin-top: 18px;
     text-decoration: none;
     display: block;
-}
 
+}
 .sub-menu ul {
     padding: 15px 25px;
 }
 
-.sub-menu ul li {
+.sub-menu ul li{
     list-style-type: none;
+
+
 }
 
-
-.drop-down:hover .sub-menu {
+.drop-down:hover .sub-menu{
     display: block;
 }
+
 
 
 .dropdown-two {
