@@ -97,13 +97,6 @@ nav  {
 }
 
 
-    content: "";
-    background-color: black;
-    height: 0.5px;
-    width: 100%;
-    display: block;
-
-}
 
 
 .icons {
@@ -513,3 +506,4 @@ a:hover {
 .dropdown:hover .dropdown-content {
     display: block;
 
+}
