@@ -9,16 +9,17 @@ body {
 }
 
 .title p {
-    margin: 0;
+    
     text-align: center;
     color: #fff;
-
+    margin: 0;
 }
 
 nav {
     display: flex;
     width: 100%;
 }
+
 
 .logo {
     width: 5%;
@@ -412,27 +413,45 @@ a:hover {
     color:black;
 
 }
-    
-    
+@media only screen and (max-width: 400px){
+    .title {
+        background-color: black;
+        padding: 15px;
+        width: 200%;
+    }
+    .grid-pattern {
+        margin-left: 50%
+    }
+    .grid-2 {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, 230px);
 
+}
+.blue-center {
+    background: #add8e6;
+    height: 300vh;
+    margin-top: 50px;
+    width: 200%;
 
+}
+.blue-center h2 {
+    color: #fff;
+    margin-top: 3%;
+    position: absolute;
+    margin-left: 10%;
+    font-size: 30px;
 
-
-
-
-    
-
-    
-    
-
-    
-    
-
-
-
-
-
-
+}
+.grid-blue {
+    margin-left: 10%;
+    position: absolute;
+    margin-top: 10%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 290px);
+}
+}
 
 
     
