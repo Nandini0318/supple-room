@@ -327,7 +327,7 @@ a:hover {
 
 .grid-text {
     display: grid;
-    grid-template-columns: repeat(3, 400px);
+    grid-template-columns: repeat(3,200px);
     grid-gap: 10px;
     text-align: center;
     margin-left: 10%;
@@ -449,7 +449,7 @@ a:hover {
     margin-top: 10%;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(2, 290px);
+    grid-template-columns: repeat(2 ,230px);
 }
 }
 
