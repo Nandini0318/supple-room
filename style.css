@@ -416,8 +416,8 @@ a:hover {
     color:black;
 
 }
-<<<<<<< HEAD
-@media only screen and (max-width: 400px){
+
+@media only screen and (max-width: 450px){
     .title {
         background-color: black;
         padding: 15px;
@@ -429,7 +429,7 @@ a:hover {
     .grid-2 {
         display: grid;
         grid-gap: 10px;
-        grid-template-columns: repeat(2, 230px);
+        grid-template-columns: repeat(1, 230px);
 
 }
 .blue-center {
@@ -455,4 +455,6 @@ a:hover {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(2 ,230px);
+}
+
 }
